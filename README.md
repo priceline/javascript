@@ -138,7 +138,7 @@
   - If you don't know array length use Array#push
 
     ```javascript
-    //var someStack = [];
+    var someStack = [];
 
 
     // bad
@@ -1523,7 +1523,7 @@
 
 (The MIT License)
 
-Copyright (c) 2014 Airbnb
+Copyright (c) 2014 Priceline.com
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
