@@ -1,4 +1,4 @@
-# Airbnb JavaScript Style Guide() {
+# Priceline.com JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
@@ -50,7 +50,10 @@
     var foo = 1,
         bar = foo;
 
+    var fox, dog, cat;
+
     bar = 9;
+    dog = 'bark';
 
     console.log(foo, bar); // => 1, 9
     ```
@@ -132,10 +135,10 @@
     var items = [];
     ```
 
-  - If you don't know array length use Array#push.
+  - If you don't know array length use Array#push
 
     ```javascript
-    var someStack = [];
+    //var someStack = [];
 
 
     // bad
@@ -143,6 +146,7 @@
 
     // good
     someStack.push('abracadabra');
+
     ```
 
   - When you need to copy an array use Array#slice. [jsPerf](http://jsperf.com/converting-arguments-to-an-array/7)
