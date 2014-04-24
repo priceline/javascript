@@ -86,7 +86,7 @@
     var item = {};
     ```
 
-  - Don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8 or Android 2.X webkit-browsers. [MDN reserved words.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Reserved_Words)
+  - Don't use [reserved words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Reserved_Words) as keys. It won't work in IE8 or Android 2.X.
 
     ```javascript
     // bad
