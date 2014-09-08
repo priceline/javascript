@@ -13,6 +13,11 @@
   // Define globals exposed by Node.js.
   "node": true,
 
+  // Custom globals.
+  "predef": [
+    "angular"
+  ],
+
   /*
    * ENFORCING OPTIONS
    * =================
@@ -54,4 +59,5 @@
 
   // Enforce placing 'use strict' at the top function scope
   "strict": true
+
 }
