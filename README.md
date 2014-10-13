@@ -316,6 +316,24 @@
     }
     ```
 
+  - Define functions with the following syntax:
+    ```javascript
+    // Anonymous Functions
+    // no space after "function"
+    // space after parameters enclosed in parentheses
+    function(name, options, arguments) {
+      // ...stuff...
+    }
+
+    // Named Functions
+    // single space after "function"
+    // no space after function name
+    // space after parameters enclosed in parentheses
+    function doSomething(name, options, args) {
+      // ...stuff...
+    }
+    ```
+
 **[⬆ back to top](#table-of-contents)**
 
 
