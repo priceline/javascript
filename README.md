@@ -388,12 +388,12 @@
   - Use one `var` declaration for multiple variables and declare each variable on a newline.
 
     ```javascript
-    // bad
+    // good
     var items = getItems();
     var goSportsTeam = true;
     var dragonball = 'z';
 
-    // good
+    // also good, but may cause some confusion
     var items = getItems(),
         goSportsTeam = true,
         dragonball = 'z';
