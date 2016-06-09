@@ -1,0 +1,20 @@
+{
+  "name": "priceline-javascript-style-guide",
+  "version": "1.0.0",
+  "description": "Priceline's style guide with examples and a linter file",
+  "main": "eslint-config/index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pricelinelabs/javascript"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "style-guide",
+    "priceline"
+  ],
+  "license": "MIT"
+}
